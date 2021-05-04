@@ -118,7 +118,6 @@ body {
 }
 
 #diskimg {
-  height: 20%;
   width: 30%;
   margin-right: 3%;
   float: left;
@@ -127,7 +126,6 @@ body {
 }
 
 #diskimg2 {
-  height: 30%;
   width: 40%;
   margin-left: 2%;
   float: right;
@@ -301,7 +299,6 @@ label {
 
 button {
   display: inline;
-  width: 120px;
   margin: 70px;
   color: rgb(12, 12, 39);
 }
@@ -444,10 +441,6 @@ button {
 }
 
 @media (min-width: 1250px) and (max-width: 1500px) {
-  
-  #canvas {
-   
-  }
 
   .container2 {
     position: absolute;
@@ -631,6 +624,14 @@ button {
 
   .diskinfo p.hd {
     font-size: 2em;
+    margin-top: 3%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #intro, #terms, #why {
+    width: 90%;
+    margin-left: 5%;
   }
 
   #diskimg {
@@ -649,11 +650,6 @@ button {
 
   #terms {
     font-size: 13px;
-    margin-left: 25px;
-  }
-
-  #why {
-    margin-left: 25px;
   }
 
   #bold {
@@ -662,7 +658,9 @@ button {
 
   .cont {
     grid-template-columns: auto;
-    margin: 30px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0px;
   }
   
   .cont h2 {
@@ -670,6 +668,8 @@ button {
   }
 
   .cont div {
+    margin: 20px;
+    padding: 20px;
     font-size: 15px;
   }
 
@@ -714,7 +714,14 @@ button {
 
   .container2 {
     position: absolute;
-    top: 800px;
+    top: 600px;
+    width: 100%;
+    left: 1%;
+  }
+
+  .container3{
+    position: absolute;
+    top: 2000px;
     width: 100%;
     left: 1%;
   }
@@ -724,16 +731,34 @@ button {
 
 @media (max-width: 600px) {
   .left {
-    width: 95%;
+    width: 80%;
     margin: 15px;
-    padding: 50px;
+    margin-left: 6%;
+    padding: 0px;
+  }
+
+  .row2 {
+    width: 100%;
+    padding: 15%;
+    padding-bottom: 2%;
   }
 
   #second {
-    margin-left: 120px;
+    margin-left: 12%;
   }
 
   #plot-button {
-    margin-left: 100px;
+    margin-left: 20%;
+    margin-bottom: 10px;
+  }
+
+  #animate-button {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  #cmpr-button{
+    margin-left: 30%;
+    margin-bottom: 10px;
   }
 }
